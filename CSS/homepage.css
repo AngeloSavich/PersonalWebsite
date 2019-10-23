@@ -1,0 +1,55 @@
+@font-face {
+    font-family: rockwell;
+    src: url('../fonts/rockwell/ROCK.TTF') format('TTF');
+}
+
+@font-face {
+    font-family: rockwellbold;
+    src: url('../fonts/rockwell/rockb.ttf') format('ttf');
+    font-weight: bold;
+}
+
+.defaultfont {
+    font-family: rockwell;
+}
+
+body {
+	background-color: RGB(52,58,64);
+	margin: 0;
+	padding: 0;
+}
+
+.basicpadding {
+    padding: 1rem;
+}
+
+.main-image {
+    background-image: url("../images/personal.jpg");
+    background-size: cover;
+    height: 92vh;
+}
+
+.display-spacing {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.btn-spacing-half{
+    margin-top: 50vh;}
+
+.btn-sizing{
+    min-width: 16rem;
+}
+
+@media only screen and (max-width: 540px) {
+    .display-spacing {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+@media only screen and (max-width: 720px) {}
+
+@media only screen and (max-width: 960px) {}
+
+@media only screen and (max-width: 1140px) {}
